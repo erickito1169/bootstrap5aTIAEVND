@@ -11,188 +11,202 @@
     <header>
         <a href="#contenido" aria-label ="Saltar al contenido principal">
             Ir al contenido principal</a>
-            <div>
+            <div class="container">
                 <h1>Bienvenidos mis Eternos Resplandores 𖦹☼ ⋆｡˚ </h1>
                 <p>Todo lo que debes de saber de Ariana Grande</p>
             </div>  
 
-            <nav aria-label="Pagina Principal">
-                <ul>
-                    <li><a href="#Index">Inicio</a></li>
-                    <li><a href="#Biografía">Biografía</a></li>
-                    <li><a href="#Discografía">Discografía</a></li>
-                    <li><a href="#Actuaciones">Actuaciones</a></li>
-                    <li><a href="#Galería">Galería</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>   
+            <nav class="navbar navnar-expand-md bavbar-light bg-light" aria-label="Pagina Principal">
+                <div class="container">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#Index">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Biografía">Biografía</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Discografía">Discografía</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Actuaciones">Actuaciones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Galería">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>   
+                </div>
             </nav>
     </header>
 
     <main id="contenido">
+        desde su biografía hasta su discografía y galería de imágenes .</p>
         <!-- Section Hero -->
         <section id="Index" aria-label="Index">
-            <header>
-            <h2 id="inicio-titulo">Bienvenides Arianators</h2>
-            <p>¡Bienvenidos a la página oficial de Ariana Grande! Aquí encontrarás todo lo que necesitas saber sobre Ari, 
-                desde su biografía hasta su discografía y galería de imágenes .</p>
-            </header>    
-
-            <figure>
-            <img src="./img/Ari Pose.png" alt="Ari">
-            <figcaption>
-                Ariana Posando
-            </figcaption>
-            </figure>
-
-            <p>
-                <a href="#Biografía">Ver Biografía</a>
-                <a href="#contacto">ver contacto</a>
-            </p>
+            <div class="container">
+                <header>
+                    <h2 id="inicio-titulo">Bienvenides Arianators</h2>
+                    <p>¡Bienvenidos a la página oficial de Ariana Grande! Aquí encontrarás todo lo que necesitas saber sobre Ari, 
+                </header>    
+                        
+                <figure>
+                    <img src="./img/Ari Pose.png" alt="Ari">
+                    <figcaption>
+                        Ariana Posando
+                    </figcaption>
+                </figure>
+                        
+                <p>
+                    <a href="#Biografía">Ver Biografía</a>
+                    <a href="#contacto">ver contacto</a>
+                </p>
+            </div>
         </section>
 
         <!-- Layout de conteido + side bar  -->
         <section aria-labelledby="titulo-resumen">
-            <header class="container">
-                <h2 id="titulo-resumen">Resumen</h2>
+            <div class="container">
+
+                <header class="container">
+                    <h2 id="titulo-resumen">Resumen</h2>
                     <p> Una breve introducción sobre Ariana Grande para aplicar Grid:
                         Biografía, Discografía, Galería, FAQ y Contacto.
                     </p>
-            </header>
-
-            <div class="container">
-                <div class="row">
-                    <!-- columna principal -->
-                    <article class="col-12 col-md-8 " aria-labelledby="Titulo-Biografía">
-                        <h2 id="Biografía">Biografía</h2>
-                        <p>Ariana Grande-Butera, conocida artísticamente como Ariana Grande, es una cantante, compositora y actriz estadounidense. 
-                           Nació el 26 de junio de 1993 en Boca Ratón, Florida. Comenzó su carrera en el teatro musical antes de ganar fama por su papel en la serie de televisión "Victorious" y su spin-off "Sam & Cat".</p>
-                        <p>Grande lanzó su primer álbum de estudio, "Yours Truly", en 2013, que debutó en el número uno en la lista Billboard 200. 
-                           Desde entonces, ha lanzado varios álbumes exitosos, incluyendo "My Everything", "Dangerous Woman", "Sweetener", "Thank U, Next" y "Positions".</p>
-                        <p>A lo largo de su carrera, Ariana Grande ha recibido numerosos premios y reconocimientos, incluyendo premios Grammy, American Music Awards y MTV Video Music Awards. 
-                           Es conocida por su poderosa voz y su rango vocal de cuatro octavas.</p>
-                    </article>
-                    <article class="col-12 col-md-8" aria-labelledby="Titulo-Discografía">
-                        <h2 id="Discografía">Discografía</h2>
-                        <ul>
-                            <li>Yours Truly (2013)</li>
-                            <li>My Everything (2014)</li>
-                            <li>Dangerous Woman (2016)</li>
-                            <li>Sweetener (2018)</li>
-                            <li>Thank U, Next (2019)</li>
-                            <li>Positions (2020)</li>
-                            <li>Eternal Sunshine (2024)</li>
-                        </ul>
-                    </article>
-
-                    <!-- sidebar -->
-                    <aside class="col-12 col-md-2" aria-labelledby="Titulo-Datos Curiosos">
-                        <h3 id="Titulo-Datos Curiosos">Datos Curiosos</h3>
-                        <ul>
-                            <li>Ariana Grande tiene un rango vocal de cuatro octavas.</li>
-                            <li>Es una gran defensora de los derechos LGBTQ+ y ha participado en varias campañas de concienciación.</li>
-                            <li>Su canción "7 Rings" se inspiró en la película "The Sound of Music".</li>
-                            <li>Ariana es conocida por su amor por los animales y tiene varios perros como mascotas.</li>
-                            <li>Ha colaborado con varios artistas famosos, incluyendo Nicki Minaj, Justin Bieber y The Weeknd.</li>
-                        </ul>
-                        <section col- aria-labelledby="Titulo-dato">
-                            <h4 id="Titulo-dato">Dato Adicional</h4>
-                            <p>Ariana Grande es una de las cantantes más exitosas de su generación, con más de 100 millones de álbumes vendidos a nivel mundial.</p>
-                        </section>
-                </div>  
+                </header>
+                
+                <div class="container">
+                    <div class="row">
+                        <!-- columna principal -->
+                        <article class="col-12 col-md-8 " aria-labelledby="Titulo-Biografía">
+                            <h2 id="Biografía">Biografía</h2>
+                            <p>Ariana Grande-Butera, conocida artísticamente como Ariana Grande, es una cantante, compositora y actriz estadounidense. 
+                                Nació el 26 de junio de 1993 en Boca Ratón, Florida. Comenzó su carrera en el teatro musical antes de ganar fama por su papel en la serie de televisión "Victorious" y su spin-off "Sam & Cat".</p>
+                                <p>Grande lanzó su primer álbum de estudio, "Yours Truly", en 2013, que debutó en el número uno en la lista Billboard 200. 
+                                    Desde entonces, ha lanzado varios álbumes exitosos, incluyendo "My Everything", "Dangerous Woman", "Sweetener", "Thank U, Next" y "Positions".</p>
+                                    <p>A lo largo de su carrera, Ariana Grande ha recibido numerosos premios y reconocimientos, incluyendo premios Grammy, American Music Awards y MTV Video Music Awards. 
+                                        Es conocida por su poderosa voz y su rango vocal de cuatro octavas.</p>
+                        </article>
+                        <article class="col-12 col-md-8" aria-labelledby="Titulo-Discografía">
+                            <h2 id="Discografía">Discografía</h2>
+                            <ul>
+                                <li>Yours Truly (2013)</li>
+                                <li>My Everything (2014)</li>
+                                <li>Dangerous Woman (2016)</li>
+                                <li>Sweetener (2018)</li>
+                                <li>Thank U, Next (2019)</li>
+                                <li>Positions (2020)</li>
+                                <li>Eternal Sunshine (2024)</li>
+                            </ul>
+                        </article>
+                                    
+                        <!-- sidebar -->
+                        <aside class="col-12 col-md-2" aria-labelledby="Titulo-Datos Curiosos">
+                            <h3 id="Titulo-Datos Curiosos">Datos Curiosos</h3>
+                            <ul>
+                                <li>Ariana Grande tiene un rango vocal de cuatro octavas.</li>
+                                <li>Es una gran defensora de los derechos LGBTQ+ y ha participado en varias campañas de concienciación.</li>
+                                <li>Su canción "7 Rings" se inspiró en la película "The Sound of Music".</li>
+                                <li>Ariana es conocida por su amor por los animales y tiene varios perros como mascotas.</li>
+                                <li>Ha colaborado con varios artistas famosos, incluyendo Nicki Minaj, Justin Bieber y The Weeknd.</li>
+                            </ul>
+                            <section col- aria-labelledby="Titulo-dato">
+                                <h4 id="Titulo-dato">Dato Adicional</h4>
+                                <p>Ariana Grande es una de las cantantes más exitosas de su generación, con más de 100 millones de álbumes vendidos a nivel mundial.</p>
+                            </section>
+                        </aside>
+                    </div>  
+                </div>
             </div>
         </section>                
 
         <!-- galeria -->
-         <section id="galeria" aria-labelledby="titulo-Galería">
-             <header>
-                 <h2 id="Galería">Galería de imágenes</h2>
-            </header>
-            <div> 
-                <figure>
-                    <img src="./img/ari 5.jpeg" alt="Ariana Grande en concierto">
-                    <figcaption>Ariana Grande pose Iconic</figcaption>
-                </figure>
-                <figure>
-                    <img src="./img/ari 6.jpeg" alt="Ariana Grande en una sesión de fotos">
-                    <figcaption>Ariana Grande para DragPaul</figcaption>
-                </figure>
-                <figure>
-                    <img src="./img/ari wicked.jpg " alt="Ariana Grande con sus fans">
-                    <figcaption>Ariana Grande Wicked c</figcaption>
-                </figure>
-                <figure>
-                    <img src="./img/ari 7.jpg" alt="">
-                    <figcaption>Ari para Brighter Days Ahead</figcaption>
-                </figure>
+        <section id="galeria" aria-labelledby="titulo-Galería">
+            <div class="container">
+                <header>
+                    <h2 id="Galería">Galería de imágenes</h2>
+                </header>
+                <div> 
+                    <figure>
+                        <img src="./img/ari 5.jpeg" alt="Ariana Grande en concierto">
+                        <figcaption>Ariana Grande pose Iconic</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/ari 6.jpeg" alt="Ariana Grande en una sesión de fotos">
+                        <figcaption>Ariana Grande para DragPaul</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/ari wicked.jpg " alt="Ariana Grande con sus fans">
+                        <figcaption>Ariana Grande Wicked c</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./img/ari 7.jpg" alt="">
+                        <figcaption>Ari para Brighter Days Ahead</figcaption>
+                    </figure>
+                </div>
             </div>
-         </section>
+        </section>
 
          <!-- FAQ con details y summary -->
 
-         <section id="faq" aria-labelledby="titulo-FAQ">
-            <header>
-            <h2 id="titulo-FAQ">
-                Preguntas frecuentes
-            </h2>
-            </header>
-            <details>
-                <summary>
-                    ¿Cuántos álbumes ha lanzado Ariana Grande?
-                </summary>
-                <p>Ariana Grande ha lanzado seis álbumes de estudio hasta la fecha: "Yours Truly" (2013), "My Everything" (2014), "Dangerous Woman" (2016), "Sweetener" (2018), "Thank U, Next" (2019), "Positions" (2020), "Eternal Sunshine (2024)" .</p>
-            </details>
-            <details>
-                <summary>
-                    ¿Cuál es el álbum más exitoso de Ariana Grande?
-                </summary>
-                <p>El álbum más exitoso de Ariana Grande es "Thank U, Next", que debutó en el número uno en la lista Billboard 200.</p>
-            </details>
-            <details>
-                <summary>
-                    ¿Qué tipo de música canta Ariana Grande?
-                </summary>
-                <p>Ariana Grande canta pop, R&B y soul.</p>
-            </details>
-         </section>
+        <section id="faq" aria-labelledby="titulo-FAQ">
+            <div class="container">
+                <header>
+                    <h2 id="titulo-FAQ">
+                        Preguntas frecuentes
+                    </h2>
+                </header>
+                <details>
+                    <summary>
+                        ¿Cuántos álbumes ha lanzado Ariana Grande?
+                    </summary>
+                    <p>Ariana Grande ha lanzado seis álbumes de estudio hasta la fecha: "Yours Truly" (2013), "My Everything" (2014), "Dangerous Woman" (2016), "Sweetener" (2018), "Thank U, Next" (2019), "Positions" (2020), "Eternal Sunshine (2024)" .</p>
+                </details>
+                <details>
+                    <summary>
+                        ¿Cuál es el álbum más exitoso de Ariana Grande?
+                    </summary>
+                    <p>El álbum más exitoso de Ariana Grande es "Thank U, Next", que debutó en el número uno en la lista Billboard 200.</p>
+                </details>
+                <details>
+                    <summary>
+                        ¿Qué tipo de música canta Ariana Grande?
+                    </summary>
+                    <p>Ariana Grande canta pop, R&B y soul.</p>
+                </details>
+            </div>
+        </section>
 
             <!-- contacto -->
         <section id="contacto" aria-labelledby="titulo-contacto">
-            <header>
-                <h2 id="titulo-contacto">Contacto</h2>
-                <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos: </p>
-            </header>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Información de contacto</legend>
-                    <p>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
-                    </p>
-                    <p>
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required>
-                    </p>
-                    <p>
-                        <label for="Tema">Tema:</label> <br>
-                        <select id="Tema" name="Tema">
-                            <option value="consulta">Consulta</option>
-                            <option value="sugerencia">Sugerencia</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="10" cols="50" required></textarea>
-                    </p>
-                    <p>
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Limpiar</button>
-                    </p>
-                </fieldset>
+            <div class="container">
+                <header>
+                    <h2 id="titulo-contacto">Contacto</h2>
+                    <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos: </p>
+                </header>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Información de contacto</legend>
+                        <p>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </p>
+                        <p>
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="Tema">Tema:</label> <br>
+                            <select id="Tema" name="Tema">
+                                <option value="consulta">Consulta</option>
+                                <option value="sugerencia">Sugerencia</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="10" cols="50" required></textarea>
+                        </p>
+                        <p>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpiar</button>
+                        </p>
+                    </fieldset>
                 </form>
-            </section>            
-        </main>
+            </div>
+        </section>            
+    </main>
 
         <!-- pie de pagina -->
         <footer>
