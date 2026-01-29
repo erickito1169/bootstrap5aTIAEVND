@@ -211,7 +211,7 @@
          <!-- FAQ con details y summary -->
 
         <section id="faq" aria-labelledby="titulo-FAQ">
-            <div class="container" py-5>
+            <div class="container py-5">
                 <header class="mb-4">
                     <h2 id="titulo-FAQ">
                         Preguntas frecuentes
@@ -246,38 +246,43 @@
 
             <!-- contacto -->
         <section id="contacto" aria-labelledby="titulo-contacto">
-            <div class="container">
-                <header>
+            <div class="container py-5">
+                <header class="mb-4">
                     <h2 id="titulo-contacto">Contacto</h2>
-                    <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos: </p>
+                    <p class="text-muted">
+                        Si tienes alguna pregunta o comentario, no dudes en contactarnos: 
+                    </p>
                 </header>
                 <form action="#" method="post">
                     <fieldset>
                         <legend>Información de contacto</legend>
-                        <p>
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" id="nombre" name="nombre" required>
-                        </p>
-                        <p>
-                            <label for="email">Correo Electrónico:</label>
-                            <input type="email" id="email" name="email" required>
-                        </p>
-                        <p>
-                            <label for="Tema">Tema:</label> <br>
-                            <select id="Tema" name="Tema">
-                                <option value="consulta">Consulta</option>
-                                <option value="sugerencia">Sugerencia</option>
-                                <option value="otro">Otro</option>
-                            </select>
-                        </p>
-                        <p>
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea id="mensaje" name="mensaje" rows="10" cols="50" required></textarea>
-                        </p>
-                        <p>
-                            <button type="submit">Enviar</button>
-                            <button type="reset">Limpiar</button>
-                        </p>
+  
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <label class="form-label" for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label class="form-label" for="email">Correo Electrónico:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="Tema">Tema:</label> <br>
+                                <select id="Tema" name="Tema" class="form-select">
+                                    <option value="consulta">Consulta</option>
+                                    <option value="sugerencia">Sugerencia</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="mensaje">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje" rows="10" cols="50" class="form-control"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary me-2">Enviar</button>
+                                <button type="reset" class="btn btn-outline-secondary ">Limpiar</button>
+                            </div>
+                        </div>                           
                     </fieldset>
                 </form>
             </div>
