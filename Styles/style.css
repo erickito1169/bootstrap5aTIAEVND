@@ -1,0 +1,31 @@
+.transition {
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.transition:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .5rem 1rem rgba(58, 255, 40, 0.15);
+}
+
+.btn-outline-secondary{
+    background-color: #c8d4c6;
+    color: white;
+    border: none;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+.btn-outline-success{
+    background-color: #cbe8c9;
+    color: white;
+
+    outline-color: aqua;
+    border: none;
+    transition: background-color .3s ease, color .3s ease, box-shadow .2s ease;
+
+}
+
+.btn-outline-success:hover{
+    background-color: #a8d8a6;
+    color: white;
+    box-shadow: 0 .5rem 1rem rgba(58, 255, 40, 0.15);
+}
